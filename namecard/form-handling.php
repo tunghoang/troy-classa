@@ -69,9 +69,9 @@
 <body>
 
     <div class="name-card">
-        <div class="full-name">John Doe</div>
-        <div class="position">Senior Software Engineer</div>
-        <div class="gender">Male</div>
+        <div class="full-name"><?= $_GET['fullName'] ?></div>
+        <div class="position"><?= $_GET['position'] ?></div>
+        <div class="gender"><?= $_GET['gender'] ?></div>
     </div>
 
 </body>
