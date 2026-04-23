@@ -69,9 +69,9 @@
 <body>
 
     <div class="name-card">
-        <div class="full-name"><?= $_GET['fullName'] ?></div>
-        <div class="position"><?= $_GET['position'] ?></div>
-        <div class="gender"><?= $_GET['gender'] ?></div>
+        <div class="full-name"><?= $_POST['fullName'] ?></div>
+        <div class="position"><?= $_POST['position'] ?></div>
+        <div class="gender"><?= $_POST['gender'] ?></div>
     </div>
 
 </body>
